@@ -1,0 +1,113 @@
+@media (min-width: 769px) and (max-width: 1023px) {
+  .header-about p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    letter-spacing: 1px;
+  }
+  .header-content img {
+    width: 375px;
+    height: auto;
+  }
+  .menu-container {
+    width: 80%;
+  }
+}
+@media (min-width: 469px) and (max-width: 768px) {
+  .main-logo {
+    padding: 1rem 1rem 1.5rem 1rem;
+  }
+  .header-content img {
+    width: 350px;
+    height: auto;
+  }
+  .header-content {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .header-about h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  .header-about p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    letter-spacing: 1px;
+  }
+  .serve h1 {
+    font-size: 2rem;
+  }
+
+  .serve .recs {
+    font-size: 1rem;
+  }
+  .download-section {
+    flex-wrap: wrap;
+  }
+  .download-section h1 {
+    font-size: 1.6rem;
+  }
+  .download-section img {
+    width: 120px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 468px) {
+  .main-logo {
+    padding: 1rem 1rem 1.5rem 1rem;
+  }
+  .header-content {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .header-content img {
+    width: 300px;
+    height: auto;
+  }
+  .header-about h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  .header-about p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    letter-spacing: 1px;
+  }
+  .header-about .recommendation {
+    font-size: 1rem;
+  }
+  .menu {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .menu-container {
+    width: 80%;
+  }
+
+  .serve h1 {
+    font-size: 1.8rem;
+  }
+
+  .serve .recs {
+    font-size: 0.8rem;
+  }
+  .download {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .download-section {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .download-section img {
+    width: 110px;
+    margin: 0 auto;
+  }
+  .download-section h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
